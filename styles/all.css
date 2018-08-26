@@ -1,5 +1,6 @@
 body {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Oxygen Mono', monospace;
+  width: 80%;
 }
 
 a {
@@ -64,4 +65,8 @@ a {
 /*MISC.*/
 .makeBold {
   font-weight: bolder;
+}
+
+.makeUnderline {
+  text-decoration: underline;
 }
