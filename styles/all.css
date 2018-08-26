@@ -1,3 +1,67 @@
 body {
-  font-family: "Consolas";
+  font-family: 'Abel', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*TITLES*/
+#mainTitle, #subTitle {
+  text-align: center;
+}
+
+#mainTitle {
+  color: #565656;
+}
+
+#subTitle {
+  color: #E68E7A;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+/*NAVIGATION BAR*/
+#navBar {
+  list-style-type: none;
+  text-align: center;
+}
+
+#navBar li {
+  display: inline;
+  margin-right: 5%;
+}
+
+#navBar a {
+  color: #787878;
+}
+
+/*INTRO SECTION*/
+
+#introSection {
+  background-color: #FFED75;
+  color: #565656;
+  padding: 3%;
+}
+
+/*CONTACT SECTION*/
+#contactSection {
+  margin-top: 4%;
+  background-color: #CFE2EF;
+  padding: 3%;
+  color: #565656;
+  text-align: right;
+}
+
+#contactSection a {
+  color: #565656;
+}
+
+#contactList {
+  list-style-type: none;
+}
+
+/*MISC.*/
+.makeBold {
+  font-weight: bolder;
 }
