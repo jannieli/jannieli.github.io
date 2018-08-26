@@ -15,12 +15,14 @@ a {
 
 #mainTitle {
   color: #565656;
+  margin-bottom: 0px;
 }
 
 #subTitle {
   color: #E68E7A;
   font-style: italic;
   letter-spacing: 2px;
+  margin: 0px;
 }
 
 /*NAVIGATION BAR*/
