@@ -1,75 +1,130 @@
-body {
-  font-family: 'Oxygen Mono', monospace;
-  width: 80%;
-  margin: 0 auto;
+/*Font*/
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Regular.ttf');
+}
+@font-face {
+  font-family: 'Lato Light';
+  src: url('fonts/Lato-Light.ttf');
+}
+@font-face {
+  font-family: 'Lato Black';
+  src: url('fonts/Lato-Black.ttf');
 }
 
-a {
-  text-decoration: none;
-}
+/*Misc.*/
 
-/*TITLES*/
-#mainTitle, #subTitle {
-  text-align: center;
-}
-
-#mainTitle {
-  color: #565656;
-  margin-bottom: 0px;
-}
-
-#subTitle {
-  color: #E68E7A;
-  font-style: italic;
-  letter-spacing: 2px;
-  margin: 0px;
-}
-
-/*NAVIGATION BAR*/
-#navBar {
-  list-style-type: none;
-  text-align: center;
-}
-
-#navBar li {
-  display: inline;
-  margin-right: 5%;
-}
-
-#navBar a {
-  color: #787878;
-}
-
-/*INTRO SECTION*/
-
-#introSection {
-  background-color: #FFED75;
-  color: #565656;
-  padding: 3%;
-}
-
-/*CONTACT SECTION*/
-#contactSection {
-  margin-top: 4%;
-  background-color: #CFE2EF;
-  padding: 3%;
-  color: #565656;
-  text-align: right;
-}
-
-#contactSection a {
-  color: #565656;
-}
-
-#contactList {
-  list-style-type: none;
-}
-
-/*MISC.*/
 .makeBold {
-  font-weight: bolder;
+    font-weight: bold;
 }
 
 .makeUnderline {
-  text-decoration: underline;
+    text-decoration: underline;
+}
+
+/*Overall Page*/
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato Light";
+}
+
+#mainTitle {
+  font-family: "Lato Black";
+  font-size: 200%;
+  margin: 0 auto;
+  color: #414141;
+}
+
+.pageBody {
+  margin: 2%;
+  text-align: center;
+  height: 400px;
+}
+
+.pageHeader {
+  font-family: "Lato";
+  font-size: 170%;
+  font-weight: bold;
+  color: #414141;
+}
+
+.pageText {
+  color: #414141;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Lato Light";
+  text-align: center;
+}
+
+
+/*Nav Bar*/
+
+#navBar {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 48px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: .5%;
+}
+
+#navBar a {
+  color: #838383;
+  text-decoration: none;
+}
+
+#current {
+  font-family: "Lato Black";
+}
+
+
+/*Other Headings*/
+
+.orangePageHeader {
+  margin-top: 78px;
+  background-color: #FF956D;
+  padding: 1%;
+  text-align: center;
+}
+
+.pageHeaderTitle {
+  font-family: "Lato";
+  font-size: 170%;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding: 1%;
+}
+
+
+/*Intro*/
+
+#intro {
+  margin-top: 78px;
+  background-color: #FF956D;
+  color: white;
+  padding: 3% 6% 3% 6%;
+  text-align: center;
+}
+
+#intro h3 {
+  font-size: 125%;
+  letter-spacing: normal;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #D6D6D6;
+  text-align: center;
+  padding: 2%;
+  color: white;
 }
