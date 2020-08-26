@@ -16,6 +16,10 @@
   font-family: 'Lato Italic';
   src: url('fonts/Lato-Italic.ttf');
 }
+@font-face {
+  font-family: 'Lato Light Italic';
+  src: url('fonts/Lato-LightItalic.ttf')
+}
 
 /*Misc.*/
 
@@ -34,7 +38,7 @@
 /*Overall Page*/
 body {
   margin: 0px;
-  padding: 0px;
+  padding: 5% 20% 5% 20%;
   font-family: "Lato Light";
 }
 
@@ -42,7 +46,39 @@ body {
   font-family: "Lato Black";
   font-size: 200%;
   margin: 0 auto;
-  color: #414141;
+  /* color: #5e5e5e; */
+  padding-bottom: 20px;
+}
+
+#mainIntro {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+a {
+  color: #f56632;
+}
+
+a:hover {
+  color: #ff1e00;
+}
+
+.project {
+  padding-bottom:10px;
+}
+
+.techStack {
+  font-family: "Lato Light Italic";
+  color: #5e5e5e;
+}
+
+.projectName {
+  font-family: "Lato";
+  color:black;
+}
+
+h2 {
+  font-family: "Lato";
 }
 
 .pageBody {
@@ -140,4 +176,10 @@ footer {
   text-align: center;
   padding: 2%;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 5% 9% 5% 9%;
+  }
 }

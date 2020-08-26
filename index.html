@@ -6,58 +6,94 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
-  <link rel="stylesheet" type="text/css" href="styles/skeleton.css" media="all">
+  <!-- <link rel="stylesheet" type="text/css" href="styles/skeleton.css" media="all"> -->
 
-  <title>Jannie Li | Projects</title>
+  <title>Jannie Li</title>
 </head>
 
 <body>
 
-  <div class="row" id="navBar">
-    <div class="two columns">
-      <p></p>
-    </div>
-    <div class="one column pageLink">
-      <a id="current" href="index.html">Projects</a>
-    </div>
-    <div class="one column pageLink">
-      <a href="contact.html">Contact</a>
-    </div>
-    <div class="four columns">
-      <h1 id="mainTitle">Jannie Li</h1>
-    </div>
-    <div class="one column pageLink">
-      <a href="about.html">About</a>
-    </div>
-    <div class="one column pageLink">
-      <a href="resume.html">Resume</a>
-    </div>
-    <div class="two columns">
-      <p></p>
-    </div>
+  <h1 id="mainTitle">Jannie Li</h1>
+
+  <div id="mainIntro">
+    <p>Hi! I'm a senior at Cornell University studying Computer and Information Science with concentrations in
+      Human-Computer Interaction and Data Science. I'm particularly interested in bio-inspired technologies,
+      hardware-software interfaces, and applications of computational methods in architecture and the humanities.</p>
+    <p>I've interned at <a href="https://www.microsoft.com/security/blog/microsoft-security-intelligence/">Microsoft</a>
+      for two summers as a software engineering intern and rotating PM and
+      software intern in Azure Security.
+      Previously, I've worked with <a href="https://www.beecombplex.com/">Combplex</a> and <a
+        href="https://www.coned.com/en">Con Edison of
+        NY</a>.
+      I've also worked at several research labs on campus focusing on computational social science and fake news.
+      Currently, I am working in a HCI design lab under <a href="https://www.cs.cornell.edu/~francois/">François
+        Guimbretière.</a></p>
+    <p>For fun, I enjoy making music, biking, reading, writing, and spending time outdoors.</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/jannie-li/">LinkedIn</a></li>
+      <li><a href="Jannie_Li_resume.pdf">Resume</a></li>
+    </ul>
   </div>
 
-<!-- Intro Section -->
-  <div id="intro">
-      <h3 class="makeItalic">Hi! I'm an <span class="makeBold makeUnderline keyword">information science</span>
-        student at <span class="makeBold makeUnderline keyword">Cornell University</span>
-        interested in <span class="makeBold makeUnderline keyword">software development</span>
-        and <span class="makeBold makeUnderline keyword">product design</span>.</h3>
+  <h2>Projects</h2>
+  <p>Here are some of the projects I particularly enjoyed working on. Click on the names to learn more.</p>
+
+  <div class="project">
+    <a href="final_report_v1.pdf" class="projectName">
+      <h3>Heimdall</h3>
+    </a>
+    <p>As part of an independent study in the Guimbretiere Lab, I adapted the <a
+        href="https://people.eecs.berkeley.edu/~bjoern/papers/karchemsky-heimdall-chi2019.pdf">Heimdall system</a> for
+      fully
+      remote learning. I
+      explored ideas for and designed a 3D printable model that could be shipped to students for remote microcontroller
+      debugging in Cornell's Rapid Prototyping class.</p>
+    <p class="techStack">Python, Fusion360</p>
   </div>
 
-<!-- Projects Section -->
-  <div class="pageBody">
-    <h3 class="pageHeader">Projects</h3>
-    <p class="pageText">Coming soon (probably in the next few days)!</p>
+  <div class="project">
+    <a href="https://youtu.be/HVHTrTVJAlo" class="projectName">
+      <h3>SightIt</h3>
+    </a>
+    <p>I participated in Microsoft's Hackathon 2020 to help design and develop an app that uses voice assistant and AR
+      technologies to help guide vision-impaired users to the objects they are looking for.
+    </p>
+    <p class="techStack">Swift, Azure Cognitive Services</p>
   </div>
 
+  <div class="project">
+    <a href="https://twitter.com/LeahLease/status/1292995077350895617" class="projectName">
+      <h3>Malicious Command Ranking</h3>
+    </a>
+    <p>As part of my summer 2020 SWE internship at Microsoft, I created a Jupyter notebook to rank Base64-encoded Linux
+      commands.</p>
+    <p class="techStack">Python, Bash, KQL</p>
+  </div>
 
-<!-- Footer -->
-<footer>
-  <p>© Jannie Li 2018</p>
-  <p>All images, designs, and content are mine.</p>
-</footer>
+  <div class="project">
+    <a href="https://youtu.be/ehGNJ6jU_c0" class="projectName">
+      <h3>SleepOrSofa</h3>
+    </a>
+    <p>My team and I designed and built a bed that wakes you up and serves as a sofa as part of our Architectural
+      Robotics
+      class.</p>
+    <p class="techStack">3D printing, Arduino</p>
+  </div>
 
+  <div class="project">
+    <h3 class="projectName">OCaml Mafia</h3>
+    <p>My team and I built the game Mafia using OCaml and functional programming concepts learned in our Functional
+      Programming and Data Structures class. GitHub repo link to come.</p>
+    <p class="techStack">OCaml</p>
+  </div>
+
+  <div class="project">
+    <a href="http://gifter-ai.herokuapp.com/" class="projectName">
+      <h3>Gifter.ai</h3>
+    </a>
+    <p>For a search engine final project, my team and I built a gift recommendation engine to rival Amazon's.</p>
+    <p class="techStack">Python Django, HTML, CSS, Amazon data</p>
+  </div>
 
 </body>
 
